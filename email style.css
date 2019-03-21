@@ -2,17 +2,16 @@ body {
     background-image: url(circuit.png)
 }
 .footer{
-    color: white;
-    grid-row-start: -2;
-    grid-row-end: -1;
-    background-color: #666666;
-    margin-block-start: 13.5%;
-    padding: 30px;
-    text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-    border-top: 6px #4aaaa5;
-    border-top-style: ridge;
+  position: absolute;
+  color: white;
+  background-color: #666666;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2rem;
+  border-top: 6px #4aaaa5;
+  border-top-style: ridge;
 }
 h1{
     padding-bottom: 14px;

@@ -1,3 +1,4 @@
+
 body {
     background-image: url(circuit.png)
 }
@@ -7,28 +8,29 @@ body {
     margin-right: 22%;
     color: #777777;
     background-color: #ffffff;
-    height: 340px;
-    margin-top: 50px
+    height: 330px;
+    margin-top: 50px;
+    width: 58%
 }
+
 .footer{
+    position: absolute;
     color: white;
-    grid-row-start: -2;
-    grid-row-end: -1;
     background-color: #666666;
-    margin-block-start: 24%;
-    padding: 30px;
     text-align: center;
-    margin-left: 0;
-    margin-right: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2rem;
     border-top: 6px #4aaaa5;
     border-top-style: ridge;
 }
 h1{
+    float: left;
     padding-bottom: 14px;
-    padding-right: 0px;
-    margin-left: 365px;
-    margin-right:1310px;
+    margin-left: 365px;  
     margin-top: -106px;
+    width: 8.5%;
     background-color: #4aaaa5;
     color: white;
 }
@@ -87,4 +89,87 @@ width: 700px
 }
 p{
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#paragraph-1,
+#paragraph-2,
+#paragraph-3{
+    width: 65%
+}
+
+@media screen and (max-width: 980px){
+    #paragraph-1
+    #paragraph-2,
+    #paragraph-3{
+        width: 70%;
+    }
+    .main{
+        height: 470px;
+        width:72%;
+        margin-left: 2%
+
+    }
+    img{
+        width: 100%
+    }
+    h1{
+        width: 16%;
+        margin-left: 2%
+    }
+    h2{
+        width: 96%
+    }
+}
+@media screen and (max-width: 768px){
+    #paragraph-1
+    #paragraph-2,
+    #paragraph-3{
+        width: 70%;
+    }
+    .main{
+        width: 92%
+    }
+    img{
+        width: 100%
+    }
+    h1{
+        width: 20.5%
+
+    }
+    h2{
+        width: 96%
+    }
+}
+@media screen and (max-width: 640px){
+    #paragraph-1,
+    #paragraph-2,
+    #paragraph-3{
+        width: 70%;
+        left: 10%;
+        top: 50%
+    }
+    #bio-image{
+     margin-left: 20%
+    }
+    .main{
+        margin-left: 5%;
+        width: 90%;
+        height: 10%;
+        margin-top: 2%
+    }
+    h1{
+        width: 100%;
+        margin-top: -26%;
+        margin-left: 0%;
+        text-align: center
+    }
+    h2{
+        width: 96%
+    }
+    ul{
+        margin-top: 10%;
+    }
+    li{
+        margin-right: 10%
+    }
 }

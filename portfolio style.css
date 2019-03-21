@@ -18,15 +18,14 @@ h2{
     margin-right: 2%;
 }
 .footer{
+    position: absolute;
     color: white;
-    grid-row-start: -2;
-    grid-row-end: -1;
     background-color: #666666;
-    margin-block-start: 10%;
-    padding: 30px;
     text-align: center;
-    margin-left: 0;
-    margin-right: 0;
+    left: 0;
+    right: 0;
+    bottom: -1;
+    padding: 2rem;
     border-top: 6px #4aaaa5;
     border-top-style: ridge;
 }
